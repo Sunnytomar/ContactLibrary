@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ContactListView">
+        <attr name="show_header" format="boolean"></attr>
+        <attr name="contact_row_background" format="color"></attr>
+        <attr name="contact_row_text_color" format="color"></attr>
+        <attr name="contact_row_text_size" format="dimension"></attr>
+        <attr name="contact_row_divider_color" format="color"></attr>
+        <attr name="row_divider_height" format="dimension"></attr>
+        <attr name="show_avatar" format="boolean"></attr>
+        <attr name="avatar_size" format="dimension"></attr>
+        <attr name="show_loader" format="boolean"></attr>
+        <attr name="show_name_only" format="boolean"></attr>
+        <attr name="contact_background" format="color"></attr>
+        <attr name="multiselect_enable" format="boolean"></attr>
+        <attr name="search_enable" format="boolean"></attr>
+        <attr name="header_bg_color" format="color"></attr>
+        <attr name="cache_enable" format="boolean"></attr>
+        <attr name="avatar_border" format="boolean" />
+        <attr name="avatar_borderColor" format="color" />
+        <attr name="avatar_borderWidth" format="dimension" />
+        <attr name="avatar_selector" format="boolean" />
+        <attr name="avatar_selectorColor" format="color" />
+        <attr name="avatar_selectorStrokeColor" format="color" />
+        <attr name="civ_selectorStrokeWidth" format="dimension" />
+        <attr name="avatar_shadow" format="boolean" />
+        <attr name="avatar_shadowRadius" format="float" />
+        <attr name="avatar_shadowDx" format="float" />
+        <attr name="avatar_shadowDy" format="float" />
+        <attr name="avatar_shadowColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="Themes">
+        <attr name="ContactStyle" format="reference" />
+    </declare-styleable>
+</resources>
